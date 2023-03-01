@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@700&family=Raleway:wght@100&display=swap');
+
+.big-box {
+  width: 40%;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: black;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.big-box-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* font-family: 'Sofia Sans', sans-serif; */
+}
+.big-box-title {
+  font-size: larger;
+  font-weight: 600;
+  padding: 5px;
+  font-family: 'Big Shoulders Inline Display', cursive;
+  text-transform: uppercase;
+}
+.big-box-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.big-box-venue,
+.big-box-date {
+  margin-bottom: 5px;
+}
+.big-box > img {
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.register-and-bookmark {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+}
+.register-and-bookmark img {
+  width: 50px;
+  padding: 10px;
+}
+.registered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.unregister {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+}
