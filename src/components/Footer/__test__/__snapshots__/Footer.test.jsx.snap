@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly 1`] = `
+<DocumentFragment>
+  <footer>
+    <div
+      class="theme"
+    >
+      <h1>
+        Theme
+      </h1>
+      <div
+        class="color-box purple"
+      />
+      <div
+        class="color-box blue"
+      />
+      <div
+        class="color-box grey"
+      />
+    </div>
+  </footer>
+</DocumentFragment>
+`;

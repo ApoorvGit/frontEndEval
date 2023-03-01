@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@700&family=Raleway:wght@100&family=Sofia+Sans:wght@600&display=swap');
+
+footer {
+  height: 80px;
+  background-color: black;
+  width: 100%;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.theme {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+  padding-top: 20px;
+  align-items: center;
+}
+.theme > h1 {
+  color: white;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+}
+.color-box {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 4px;
+}
+.purple {
+  background-color: purple;
+}
+.blue {
+  background-color: blue;
+}
+.grey {
+  background-color: grey;
+}
