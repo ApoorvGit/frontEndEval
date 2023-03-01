@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@700&family=Raleway:wght@100&display=swap');
+
+.box {
+  width: 350px;
+  height: 500px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: black;
+  margin-bottom: 40px;
+}
+.box-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* font-family: 'Sofia Sans', sans-serif; */
+}
+.box-title {
+  font-size: larger;
+  font-weight: 600;
+  padding: 5px;
+  font-family: 'Big Shoulders Inline Display', cursive;
+  text-transform: uppercase;
+}
+.box-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.box-venue,
+.box-date {
+  margin-bottom: 5px;
+}
+.box > img {
+  width: 350px;
+  height: 50%;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.register-and-bookmark {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+}
+.register-and-bookmark img {
+  width: 50px;
+  padding: 10px;
+}
+.registered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
