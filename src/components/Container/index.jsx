@@ -105,7 +105,7 @@ export default function Container() {
       </div>
       <div className="content">
         {subsetData.map(item => (
-          <Link to={`/events/${item.id}`}>
+          <Link to={`/event/${item.id}`}>
             <Box
               key={item.id}
               id={item.id}
